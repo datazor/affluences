@@ -46,7 +46,7 @@ function checkIfAvailable(date) {
       return json({"available":true})
     }
     else{
-      return json({"available":true})
+      return json({"available":false})
     }
 
   }
