@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": { 
+    "express":"*",
+    "mongoose":"*",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "json-web-token": "^3.2.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "engines": {
+    "node": "v16.17.0"
+}
+}
